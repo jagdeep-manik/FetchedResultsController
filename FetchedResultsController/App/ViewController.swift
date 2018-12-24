@@ -52,7 +52,7 @@ class ViewController: UIViewController {
         let context = AppDelegate.shared.persistentContainer.viewContext
         
         context.perform {
-            for i in 0..<10 {
+            for _ in 0..<10 {
                 Reservation.generateRandom(in: context)
             }
             

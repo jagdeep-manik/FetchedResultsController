@@ -84,6 +84,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A6198E821D072380044F1D6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9A8F2D0021C862F6004C0548 /* Fakie.swift */,
+				9A8F2D0721C8BC4C004C0548 /* DateUtilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		9A6198E921D072490044F1D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9A8F2D0921C8C692004C0548 /* SortStrategy.swift */,
+				9A8F2CFC21C86092004C0548 /* Reservation+Model.swift */,
+				9A8F2CFD21C86092004C0548 /* Reservation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9A6198EA21D072680044F1D6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9A8F2CD621C85610004C0548 /* AppDelegate.swift */,
+				9A8F2CD821C85610004C0548 /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		9A8F2CCA21C85610004C0548 = {
 			isa = PBXGroup;
 			children = (
@@ -106,14 +134,10 @@
 		9A8F2CD521C85610004C0548 /* FetchedResultsController */ = {
 			isa = PBXGroup;
 			children = (
-				9A8F2CFC21C86092004C0548 /* Reservation+Model.swift */,
-				9A8F2CFD21C86092004C0548 /* Reservation.swift */,
-				9A8F2CD621C85610004C0548 /* AppDelegate.swift */,
-				9A8F2CD821C85610004C0548 /* ViewController.swift */,
-				9A8F2D0021C862F6004C0548 /* Fakie.swift */,
-				9A8F2D0721C8BC4C004C0548 /* DateUtilities.swift */,
-				9A8F2D0921C8C692004C0548 /* SortStrategy.swift */,
-				9A8F2D0C21C9DF19004C0548 /* Custom FRC */,
+				9A6198EA21D072680044F1D6 /* App */,
+				9A6198E921D072490044F1D6 /* Models */,
+				9A6198E821D072380044F1D6 /* Utilities */,
+				9A8F2D0C21C9DF19004C0548 /* FetchedResultsController */,
 				9A8F2D0221C86908004C0548 /* Table Views */,
 				9A8F2CDA21C85610004C0548 /* Main.storyboard */,
 				9A8F2CE021C85613004C0548 /* Assets.xcassets */,
@@ -142,14 +166,14 @@
 			path = "Table Views";
 			sourceTree = "<group>";
 		};
-		9A8F2D0C21C9DF19004C0548 /* Custom FRC */ = {
+		9A8F2D0C21C9DF19004C0548 /* FetchedResultsController */ = {
 			isa = PBXGroup;
 			children = (
 				9A8F2D1421CB0CF4004C0548 /* EntityTableController.swift */,
 				9A8F2D1621CB0D03004C0548 /* EntityTableSection.swift */,
 				9A8F2D1D21CB11DF004C0548 /* EntityTableTree.swift */,
 			);
-			path = "Custom FRC";
+			path = FetchedResultsController;
 			sourceTree = "<group>";
 		};
 		9A8F2D1821CB10FF004C0548 /* Frameworks */ = {
